@@ -1,7 +1,7 @@
 //  import * as React from 'react';
 
 
-const List = props =>
+const List = (props) =>(
     props.list.map(item => (
   <div key={item.objectID}>
           <span>
@@ -11,7 +11,7 @@ const List = props =>
           <span>{item.num_comments}</span>
           <span>{item.points}</span>
   </div>
-));
+)));
 const Search = () => {
   return (
         <div>
